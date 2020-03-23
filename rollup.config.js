@@ -6,7 +6,7 @@ import { terser } from "rollup-plugin-terser";
 
 const production = !process.env.ROLLUP_WATCH;
 
-import autoPreprocess from "svelte-preprocess";
+import autoPreprocess from "svelte-preprocess"; //<-- ADD THIS LINE!
 
 export default {
   input: "src/main.js",
@@ -18,7 +18,7 @@ export default {
   },
   plugins: [
     svelte({
-      preprocess: autoPreprocess(),
+      preprocess: autoPreprocess(), //<-- ADD THIS LINE!
       // enable run-time checks when not in production
       dev: !production,
       // we'll extract any component CSS out into
