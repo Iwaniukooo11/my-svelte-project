@@ -33,7 +33,11 @@
   <h1 class="content__header">Hello user!</h1>
   <p>
     Visit my
-    <a href="https://svelte.dev/tutorial">Svelte article</a>
+    <a
+      href="https://dev.to/iwaniukooo11/localnetwork-configuring-cdn-libraries-global-styles-and-much-more-in-svelte-2d92"
+      target="_blank">
+      Svelte article
+    </a>
     to see the basic guide :).
   </p>
 
